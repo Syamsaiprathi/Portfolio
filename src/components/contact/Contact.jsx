@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="space-y-6">
               {/* Email Option */}
               <a 
-                href="mailto:syamsai.prathi@example.com" 
+                href="mailto:syamsaiprathi0105@gamil.com" 
                 className="group flex items-center gap-5 p-4 rounded-2xl bg-gray-50 dark:bg-gray-700/50 hover:bg-orange-50 dark:hover:bg-gray-700 transition-all duration-300 border border-transparent hover:border-orange-200 shadow-sm hover:shadow-md"
               >
                 <div className="p-4 bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 rounded-xl group-hover:scale-110 transition-transform duration-300">
