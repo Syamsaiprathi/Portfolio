@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FIX: Forces the body background to change with dark mode.
+  This prevents "white flashes" or empty white spaces.
+*/
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .primary-btn {
+    @apply bg-primary text-white cursor-pointer hover:bg-primary/80 px-4 py-2 rounded-lg my-3;
+  }
+
+  .outline-btn {
+    @apply ring-2 ring-primary inset-0 text-primary cursor-pointer hover:bg-primary hover:text-white px-4 py-2 rounded-lg my-3;
+  }
+}
